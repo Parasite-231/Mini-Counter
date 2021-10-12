@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+
+    background: #7474F0;
+}
+.table{
+
+    background-color: cadetblue;
+    color: blue;
+    text-align: center;
+    /* margin: 8%; */
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto; */
+    margin: auto;
+    margin-top: 15%;
+    width: 40%;
+    /* margin: 10%; */
+}
+
+.card{
+
+    margin: auto;
+    margin-top: 10%;
+    border: 1.5px solid black;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    text-align: center;
+    height: 580px;
+    width: 20%;
+    box-sizing: 30px;
+    box-shadow: 0 8px 40px 0 rgb(0, 0, 0);
+    
+
+}
+
+.card-img-top{
+
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    cursor: pointer;
+}
+
+#btn-1{
+
+    background-color: #7474F0;
+    color: white;
+}
+
+#btn-2{
+
+    background-color: brown;
+    color: white;
+}
+
+#btn-1:hover{
+
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+}
+
+#btn-2:hover{
+
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+}
+
+h1{
+
+    color: red;
+    font-weight: bold;
+    border-style: dotted;
+    border-color: brown;
+    background-color: black;
+}
